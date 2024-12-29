@@ -8,5 +8,7 @@ args = parser.parse_args()
 mode = args.mode
 if mode == "production":
     print("production code was running.")
-else:
+elif mode == "test":
     print("testing code was running.")
+else:
+    print("some other code was running.")
