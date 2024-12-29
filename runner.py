@@ -10,5 +10,7 @@ if mode == "production":
     print("production code was running.")
 elif mode == "test":
     print("testing code was running.")
+    print("failure test")
+    raise Exception("Script threw error")
 else:
     print("some other code was running.")
